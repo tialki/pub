@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import OriginalBlogPostItem from "@theme-original/BlogPostItem";
 import { useColorMode } from "@docusaurus/theme-common";
+import SocialShares from "../components/SocialShares";
 
 const utterancesSelector = "iframe.utterances-frame";
 
@@ -8,6 +9,10 @@ function BlogPostItem(props) {
   return (
     <>
       <OriginalBlogPostItem {...props} />
+      <SocialShares
+        url={props.metadata.permalink}
+        title={props.metadata.title}
+      />
       {props.isBlogPostPage && <Utterances />}
     </>
   );
