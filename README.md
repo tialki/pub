@@ -6,6 +6,8 @@ This website template is built using [Docusaurus 2](https://docusaurus.io/), a m
 
 - Add utterances for comment `docusaurus.config.js/customFields.utterances`
 - Add social share buttons `docusaurus.config.js/customFields.socialShares`
+- Add Katex support
+- Add mermaid support
 
 ### Installation
 

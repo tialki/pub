@@ -3,6 +3,9 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const math = require("remark-math");
+const katex = require("rehype-katex");
+const mermaid = require("remark-mermaid-dataurl");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -28,6 +31,10 @@ const config = {
           //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
+          blogSidebarTitle: "全部博文",
+          blogSidebarCount: "ALL",
+          remarkPlugins: [math, mermaid],
+          rehypePlugins: [katex],
           showReadingTime: true,
           // Please change this to your repo.
           // editUrl:
