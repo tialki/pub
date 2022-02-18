@@ -119,6 +119,14 @@ const config = {
    * custom fields
    */
   customFields: {
+    // comment plugin
+    utterances: {
+      repo: "tialki/pub",
+      issueTerm: "pathname",
+      label: "comment",
+      theme: "preferred-color-scheme",
+    },
+
     socialShares: [
       "twitter",
       "facebook",

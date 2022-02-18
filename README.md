@@ -1,6 +1,11 @@
-# Website
+# Docusaurus template TK
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website template is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+## Compare to the default template
+
+- Add utterances for comment `docusaurus.config.js/customFields.utterances`
+- Add social share buttons `docusaurus.config.js/customFields.socialShares`
 
 ### Installation
 
