@@ -9,9 +9,9 @@ const mermaid = require("remark-mermaid-dataurl");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "TK",
-  tagline: "TK thanks you for your thinking",
-  url: "https://tialki.com",
+  title: "Docusaurus Template",
+  tagline: "More features coming soon!",
+  url: "https://docusaurus-template.tialki.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
