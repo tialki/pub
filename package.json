@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-beta.21",
-    "@docusaurus/preset-classic": "^2.0.0-beta.20",
+    "@docusaurus/preset-classic": "^2.0.0-beta.21",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
